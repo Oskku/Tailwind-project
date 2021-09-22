@@ -3,7 +3,7 @@ import React from 'react'
 function Content() {
     return (
         
-          <div className='flex justify-center'>
+          <div className='flex justify-center' id='order'>
                 <section className="text-gray-600 body-font flex">
                   <div className="container px-5 py-24 mx-auto max-w-7x1">
                     <div className="flex flex-wrap w-full mb-4 p-4">
