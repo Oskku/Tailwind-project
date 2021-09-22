@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 
 
@@ -23,12 +24,9 @@ function Footer() {
 
                         <div className="my-6 text-base text-color f-f-l">
                             <ul className="md:flex items-center">
-                                <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">About</li>
-                                <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Features</li>
-                                <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Pricing</li>
-                                <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Careers</li>
-                                <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Help</li>
-                                <li className="cursor-pointer pt-4 lg:py-0">Privacy Policy</li>
+                                <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0"><Link to='/'>Home</Link></li>
+                                <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0"><Link to='/about'>About</Link></li>
+                                <li className="cursor-pointer pt-4 lg:py-0"><Link to='/contact'>Contact</Link></li>
                             </ul>
                         </div>
                         <div className="text-sm text-color mb-10 f-f-l">

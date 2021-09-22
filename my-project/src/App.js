@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import { Route, Switch } from 'react-router';
 
+
 function App() {
   return (
     <>
