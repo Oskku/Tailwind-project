@@ -1,5 +1,4 @@
 import React from 'react'
-import { PaperClipIcon } from '@heroicons/react/solid'
 
 function About() {
     return (
