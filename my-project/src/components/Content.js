@@ -10,7 +10,7 @@ function Content() {
           <div className="flex flex-wrap w-full mb-4 p-4">
             <div className="w-full mb-6 lg:mb-0">
               <h1 className=" animate-pulse sm:text-4xl text-5xl  font-bold title-font mb-2 text-gray-900">
-                Our Services
+                Palvelumme
               </h1>
               <div className="h-1 w-20 bg-indigo-500 rounded" />
             </div>
@@ -26,10 +26,10 @@ function Content() {
                       alt={service.title}
                     />
                   </Link>
-                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  <h3 className="tracking-widest text-indigo-500 text-xs title-font uppercase font-medium">
                     {service.subtitle}
                   </h3>
-                  <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                  <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
                     {service.title}
                   </h2>
                   <p className="leading-relaxed text-base w-full h-12 text-ellipsis overflow-hidden ...">

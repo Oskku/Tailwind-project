@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
-function Mail({ blackWord = "Get in ", purpleWord = "Touch" }) {
+function Mail({ blackWord = "Ota ", purpleWord = "Yhteyttä" }) {
   const {
     register,
     handleSubmit,
@@ -63,15 +63,15 @@ function Mail({ blackWord = "Get in ", purpleWord = "Touch" }) {
               <input
                 register={register}
                 required
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                 name="name1"
                 id="grid-first-name"
                 type="text"
                 placeholder="Jane"
               />
-              <p className="text-red-500 text-xs italic">
+              {/* <p className="text-red-500 text-xs italic">
                 Please fill out this field.
-              </p>
+              </p> */}
             </div>
             <div className="w-full md:w-1/2 px-3">
               <label

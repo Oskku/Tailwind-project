@@ -2,7 +2,7 @@ import React from "react";
 import { data } from "./Data/ServicesData";
 import { useParams } from "react-router-dom";
 import Mail from "./Mail";
-import NotFound from "../pages/404"
+import NotFound from "../pages/404";
 
 const Services = () => {
   const { slug } = useParams();
@@ -30,11 +30,11 @@ const Services = () => {
             Hinta: {ServiceData.price}
           </h4>
         </div>
-        <Mail blackWord="Order this " purpleWord="Service" />
+        <Mail blackWord="Tilaa tämä " purpleWord="Palvelu" />
       </div>
     );
   }
-  return <NotFound />
+  return <NotFound />;
 };
 
 export default Services;

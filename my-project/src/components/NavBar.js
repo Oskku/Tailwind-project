@@ -3,7 +3,6 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo-hero.png";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -36,16 +35,9 @@ export default function NavBar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start ">
                 <div className="flex-shrink-0 flex items-center">
                   <Link to="/">
-                    <img
-                      className="block lg:hidden h-8 w-auto rounded-full"
-                      src={Logo}
-                      alt="Logo"
-                    />
-                    <img
-                      className="hidden lg:block h-8 w-auto rounded-full"
-                      src={Logo}
-                      alt="Logo"
-                    />
+                    <h1 className="bg-indigo-600 font-bold text-lg rounded mx-3 text-white px-3 py-1">
+                      FinClear
+                    </h1>
                   </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
