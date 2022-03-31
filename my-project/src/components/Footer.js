@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo-footer.png";
+import Logo from "../assets/logo-footer.svg";
 
 function Footer() {
   return (
@@ -25,7 +25,7 @@ function Footer() {
               </ul>
             </div>
             <div className="text-sm text-color mb-10 f-f-l">
-              <p> © 2021 Osamah Amer. All rights reserved</p>
+              <p> © 2022 FinClear. All rights reserved</p>
             </div>
           </div>
           <div className="w-9/12  h-0.5 bg-gray-100 rounded-full" />
