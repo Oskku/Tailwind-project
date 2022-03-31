@@ -57,7 +57,7 @@ export const data = [
     description:
       "Tarjoamme rakennussiivousta sekä loppusiivousta. Rakennussiivous suoritetaan rakennustyöaikana. Imuroimme tilat korkeatasoisella imurilla, joka takaa hienojakoisen pölyn imuroinnin. Rakennusaikainen siivous on edellytys sujuvalle työnteolle. Loppusiivouksella teemme perusteellisen loppusiivouksen, jolla varmistetaan puhtaat tilat ennen kohteen luovuttamista. Loppusiivouksessa poistetaan rakennusaikaiset suojaukset ja puhdistetaan lika sekä pöly, näin takaamme, että asiakas saa puhtaat ja turvalliset tilat.",
     imageUrl: Rakennus,
-    slug: "san-francisco",
+    slug: "rakennus&loppusiivous",
     price: "33,60 /h",
   },
 ];
