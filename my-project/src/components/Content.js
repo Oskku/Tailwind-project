@@ -32,9 +32,10 @@ function Content() {
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                     {service.title}
                   </h2>
-                  <p className="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base w-full h-12 text-ellipsis overflow-hidden ...">
                     {service.description}
                   </p>
+                  <button className="text-sm font-medium border-2 rounded-full text-indigo-500 border-indigo-500 px-3 py-1 mt-5"><Link to={`services/${service.slug}`}>more info</Link></button>
                 </div>
               </div>
             ))}
