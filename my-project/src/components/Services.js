@@ -26,7 +26,7 @@ const Services = () => {
       </p>
       <h4 className="text-lg md:text-xl font-bold mt-5 text-gray-500">Hinta: {ServiceData.price}</h4>
     </div>
-    <Mail />
+    <Mail  blackWord="Order this " purpleWord="Service"/>
   </div>
   );
 };
