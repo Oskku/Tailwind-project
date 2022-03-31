@@ -38,7 +38,7 @@ export default function Example() {
                 Siivouspalvelut.'
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
+                <div className="rounded-md shadow cursor-pointer">
                   <Link
                     to="order"
                     smooth={true}
@@ -48,7 +48,7 @@ export default function Example() {
                     Tilaa siivous
                   </Link>
                 </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
+                <div className="mt-3 sm:mt-0 sm:ml-3 cursor-pointer">
                   <Link
                     to="mail"
                     smooth={true}
