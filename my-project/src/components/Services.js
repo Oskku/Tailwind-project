@@ -11,7 +11,7 @@ const Services = () => {
     <div className="md:w-2/3 p-4 mx-auto lg:mt-10">
     <div className="bg-white p-6 rounded-lg mb-6">
         <img
-          className="lg:h-96 xl:w-full xl:h-full md:h-80 sm:h-72 xs:h-72 h-72 rounded lg:rounded-lg w-full object-cover object-center mb-6 cursor-pointer"
+          className="lg:h-96 xl:w-full xl:h-full md:h-80 sm:h-72 xs:h-72 h-72 rounded lg:rounded-lg w-full object-cover object-center mb-6"
           src={ServiceData.imageUrl}
           alt={ServiceData.title}
         />
