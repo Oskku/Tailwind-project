@@ -17,7 +17,7 @@ function Content() {
           </div>
           <div className="flex flex-wrap -m-4">
             {data.map((service) => (
-              <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="xl:w-1/3 md:w-1/2 p-4" key={service.slug}>
                 <div className="bg-white p-6 rounded-lg">
                   <Link to={`services/${service.slug}`}>
                     <img
@@ -32,9 +32,12 @@ function Content() {
                   <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                     {service.title}
                   </h2>
-                  <p className="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base w-full h-12 text-ellipsis overflow-hidden ...">
                     {service.description}
                   </p>
+                  <button className=" bg-white text-sm font-medium border-2 rounded-full text-indigo-500 border-indigo-500 px-3 py-1 mt-4">
+                    <Link to={`services/${service.slug}`}>more info</Link>
+                  </button>
                 </div>
               </div>
             ))}
