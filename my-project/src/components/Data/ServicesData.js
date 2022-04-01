@@ -8,7 +8,7 @@ import Muuttosiivous from "../../assets/muuttosiivous.jpg";
 export const data = [
   {
     title: "Kotisiivous",
-    subtitle: "Palvelua",
+    subtitle: "Palvelu",
     description:
       "Meiltä saatte laadukasta kotisiivousta, säästätte omaa ja perheenne yhteistä aikaa. Kotisiivous voi sisältää toiveesi mukaan eri työtehtäviä kuten esimerkiksi ikkunapesu/saunapesu, peilien puhdistus, kylpyhuoneen pesu, kosteamoppaus. Huolehdimme aseptiikasta eli työjärjestyksestä, joka takaa puhtauden. Meillä on vankka kokemus siivoustöistä. Meillä on kaikki tarvittavat siivousvälineet. Tilaa kotisiivous meiltä, niin saat enemmän aikaa itsellesi tärkeille asioille.",
     imageUrl: Kotisiivous,
@@ -17,7 +17,7 @@ export const data = [
   },
   {
     title: "Ikkunanpesu",
-    subtitle: "Palvelua",
+    subtitle: "Palvelu",
     description:
       "Pesemme ikkunat huolellisesti ammattitaitoisella otteella kirkkaiksi ja tarjoamme tarvittaessa sälekaihtimet puhtaiksi. Tarjoamme tätä palvelua kotitalouksille sekä yrityksille.",
     imageUrl: Ikkunanpesu,
@@ -26,7 +26,7 @@ export const data = [
   },
   {
     title: "Toimistisiivous",
-    subtitle: "Palvelua",
+    subtitle: "Palvelu",
     description:
       "Jätä vanhan kotisi siivous meille, jotta pääset nauttimaan uudesta kodistasi nopeammin. Teemme ammattitaitoista muuttosiivousta tarpeittesi mukaan.",
     imageUrl: Toimistisiivous,
@@ -35,7 +35,7 @@ export const data = [
   },
   {
     title: "Muuttosiivous",
-    subtitle: "Palvelua",
+    subtitle: "Palvelu",
     description:
       "Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.",
     imageUrl: Muuttosiivous,
@@ -44,7 +44,7 @@ export const data = [
   },
   {
     title: "Vahaukset",
-    subtitle: "Palvelua",
+    subtitle: "Palvelu",
     description:
       "Saatte meiltä ammattitaidolla tehdyn lattioiden vahauksen. Vahaus suoritetaan peruspesun yhteydessä. Saatte lopputuloksena kiiltävän vahakerroksen, joka suojaa lattiaanne kulutukselta ja helpottaa huomattavasti lattiapesua. Vahalla on mahdollista myös häivyttää käytön jälkiä, kuten naarmuja ja kulumia. ",
     imageUrl: Vahaukset,
@@ -53,7 +53,7 @@ export const data = [
   },
   {
     title: "Rakennus & loppusiivous",
-    subtitle: "Palvelua",
+    subtitle: "Palvelu",
     description:
       "Tarjoamme rakennussiivousta sekä loppusiivousta. Rakennussiivous suoritetaan rakennustyöaikana. Imuroimme tilat korkeatasoisella imurilla, joka takaa hienojakoisen pölyn imuroinnin. Rakennusaikainen siivous on edellytys sujuvalle työnteolle. Loppusiivouksella teemme perusteellisen loppusiivouksen, jolla varmistetaan puhtaat tilat ennen kohteen luovuttamista. Loppusiivouksessa poistetaan rakennusaikaiset suojaukset ja puhdistetaan lika sekä pöly, näin takaamme, että asiakas saa puhtaat ja turvalliset tilat.",
     imageUrl: Rakennus,
