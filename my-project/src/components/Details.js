@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import Mail from "./Mail";
 import NotFound from "../pages/404";
 
-const Services = () => {
+const Details = () => {
   const { slug } = useParams();
   const ServiceData = data.filter((service) => service.slug === slug)[0];
 
@@ -37,4 +37,4 @@ const Services = () => {
   return <NotFound />;
 };
 
-export default Services;
+export default Details;
