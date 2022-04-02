@@ -7,7 +7,7 @@ function Mail({ blackWord = "Ota ", purpleWord = "Yhteyttä" }) {
     register,
     handleSubmit,
     reset,
-    formState: { errors },
+    // formState: { errors },
   } = useForm();
   const form = useRef();
   const resetForm = () => {
@@ -36,6 +36,10 @@ function Mail({ blackWord = "Ota ", purpleWord = "Yhteyttä" }) {
       );
   };
 
+  const handleRegister = !register
+    ? console.error("Form registration has an error")
+    : 1;
+
   return (
     <div id="mail">
       <br />
@@ -61,7 +65,7 @@ function Mail({ blackWord = "Ota ", purpleWord = "Yhteyttä" }) {
                 First Name
               </label>
               <input
-                register={register}
+                register={handleRegister}
                 required
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                 name="name1"
@@ -81,7 +85,7 @@ function Mail({ blackWord = "Ota ", purpleWord = "Yhteyttä" }) {
                 Last Name
               </label>
               <input
-                register={register}
+                register={handleRegister}
                 required
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 name="name2"
@@ -100,7 +104,7 @@ function Mail({ blackWord = "Ota ", purpleWord = "Yhteyttä" }) {
                 Email Address
               </label>
               <input
-                register={register}
+                register={handleRegister}
                 required
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 "
                 id="grid-email"
@@ -119,7 +123,7 @@ function Mail({ blackWord = "Ota ", purpleWord = "Yhteyttä" }) {
                 PhoneNumber
               </label>
               <input
-                register={register}
+                register={handleRegister}
                 required
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 "
                 type="tel"
@@ -138,7 +142,7 @@ function Mail({ blackWord = "Ota ", purpleWord = "Yhteyttä" }) {
                 Your Message
               </label>
               <textarea
-                register={register}
+                register={handleRegister}
                 required
                 rows={10}
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"

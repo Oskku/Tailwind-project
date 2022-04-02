@@ -35,7 +35,7 @@ function Content() {
                   <p className="leading-relaxed text-base w-full h-12 text-ellipsis overflow-hidden ...">
                     {service.description}
                   </p>
-                  <button className=" bg-white text-sm font-medium border-2 rounded-full text-indigo-500 border-indigo-500 px-3 py-1 mt-4">
+                  <button className=" bg-white hover:bg-indigo-50 transition text-sm font-medium border-2 rounded-full text-indigo-500 border-indigo-500 px-3 py-1 mt-4">
                     <Link to={`services/${service.slug}`}>more info</Link>
                   </button>
                 </div>
