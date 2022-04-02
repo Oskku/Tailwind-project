@@ -23,10 +23,10 @@ const Details = () => {
           <h2 className="text-lg md:text-2xl text-gray-900 font-medium title-font mb-4 xl:text-5xl lg:mt-1">
             {ServiceData.title}
           </h2>
-          <p className="leading-relaxed text-base lg:text-lg opacity-80 xl:mt-5">
+          <p className="leading-relaxed text-sm md:text-base lg:text-lg opacity-80 xl:mt-5">
             {ServiceData.description}
           </p>
-          <h4 className="text-lg md:text-xl font-bold mt-5 text-gray-500">
+          <h4 className="text-base md:text-xl font-bold mt-5 text-gray-500">
             Hinta: {ServiceData.price}
           </h4>
         </div>
