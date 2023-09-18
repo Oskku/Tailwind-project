@@ -26,9 +26,9 @@ const Details = () => {
           <p className="leading-relaxed text-sm md:text-base lg:text-lg opacity-80 xl:mt-5">
             {ServiceData.description}
           </p>
-          <h4 className="text-base md:text-xl font-bold mt-5 text-gray-500">
+          {/* <h4 className="text-base md:text-xl font-bold mt-5 text-gray-500">
             Hinta: {ServiceData.price}
-          </h4>
+          </h4> */}
         </div>
         <Mail blackWord="Tilaa tämä " purpleWord="Palvelu" />
       </div>

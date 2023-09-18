@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Details from "./components/Details";
 import NotFound from "./pages/404";
-import { Route, Switch } from "react-router";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
