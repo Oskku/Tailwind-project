@@ -5,9 +5,9 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "Contact", href: "/contact", current: false },
-  { name: "About", href: "/about", current: false },
+  { name: "ETUSIVU", href: "/", current: true },
+  { name: "YHTEYDENOTTO", href: "/contact", current: false },
+  { name: "TIETOJA", href: "/about", current: false },
 ];
 
 function classNames(...classes) {
